@@ -6,11 +6,11 @@ import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+
 public class IntegerTaskProvider  implements TaskProvider  <Task<Long>>  {
 
     private List<Task<Long>> task = new ArrayList<>();
-@PostConstruct
+
     public void init(){
 
         Task<Long> longTask = new LongTask(-1);

@@ -2,5 +2,5 @@
 out/*
 .idea/*
 *.class
-*.xml
+
 *.name
